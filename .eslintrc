@@ -5,6 +5,8 @@
         "airbnb-base",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",  // Uses eslint-config-prettier to disable ESLint rules from @typescript-eslint/eslint-plugin that would conflict with prettier
+        "plugin:prettier/recommended", 
     ],
     "globals": {
         "browser": true,
@@ -18,6 +20,7 @@
         "jquery": true
     },
     "plugins": [
+        "@typescript-eslint",
         "react"
     ],
     "parserOptions": {
@@ -38,7 +41,7 @@
         ],
         "object-curly-spacing": [
             2,
-            "never"
+            "always"
         ],
         "array-bracket-spacing": [
             2,
