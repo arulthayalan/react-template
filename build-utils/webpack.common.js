@@ -20,28 +20,10 @@ module.exports = {
           }
         ]
       },
-      {
+     {
         test: /\.ts(x?)$/,
         exclude: /node_modules/,
-        use: [
-          {
-            loader: "tslint-loader"
-          }
-        ]
-      },
-      {
-        enforce: "pre",
-        test: /\.js$/,
-        loader: "source-map-loader"
-      },
-      {
-        test: /\.ts(x?)$/,
-        exclude: /node_modules/,
-        use: [
-          {
-            loader: "ts-loader"
-          }
-        ]
+        use: ["ts-loader", "eslint-loader"]
       },
     ]
   },

@@ -10,6 +10,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arulthayalan/react-template"
+  },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
@@ -20,6 +24,8 @@
     "@babel/preset-react": "^7.0.0",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.5",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
@@ -33,9 +39,6 @@
     "react-hot-loader": "^4.12.7",
     "source-map-loader": "^0.2.4",
     "ts-loader": "^6.0.4",
-    "tslint": "^5.18.0",
-    "tslint-loader": "^3.5.4",
-    "tslint-react": "^4.0.0",
     "typescript": "^3.5.3",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.6",
